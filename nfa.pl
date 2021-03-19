@@ -1,5 +1,6 @@
 %%%% Fagadau_Ionut_Daniel_845279
 %%%% Messuri_Elettra_847008
+%%%% De_Gennaro_Alessio_845031
 
 %%%% -*- Mode: Prolog -*-
 %%%% nfa.pl
