@@ -71,7 +71,7 @@ E' composto da tre funzioni principali:
 	   Controlla che `FA_Id` non sia già presente nella base di dati semplicemente verificando se esiste uno stato iniziale associato a quell'ID,
 	   in tal caso stampa un messaggio di errore e fa fallire la computazione.
 	
-	3. `nfa_regexp_comp(FA_Id, RE, Initial, Final)`
+	1. `nfa_regexp_comp(FA_Id, RE, Initial, Final)`
    Questa regola gestisce i vari casi a seconda del tipo di `RE`;
 	   Nel caso `RE` sia un solo simbolo, viene controllato che questo sia una regexp e in tal caso viene definita una delta dallo stato iniziale a quello finale che consuma tale simbolo.
 	
